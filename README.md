@@ -3,6 +3,18 @@
 My personal security blog is hosted on Notion at: [**swiftly-detecting.notion.site**](https://swiftly-detecting.notion.site/Swiftly-Detecting-Blog-c4000221c60d46ffb16c37b2425241e2).
 
 ---
+## Some helpful links
+* [**🌎 Endpoint Security client Survey 2023**](https://docs.google.com/spreadsheets/d/18lPTHjrgKsfLWknGpHg_bCasF1G7KRQlw0j6xs0oKx4/edit?gid=0#gid=0)
+* [**Common macOS Data Sources**](https://github.com/redcanaryco/mac-monitor/wiki/2.-Common-Data-Sources)
+  * [**Security Data Sources**](https://github.com/redcanaryco/mac-monitor/wiki/4.-Security-Data-Sources)
+* **Endpoint Security Internals**
+  * [**What makes Endpoint Security Special?**](https://github.com/redcanaryco/mac-monitor/wiki/5.-Endpoint-Security-Overview)
+  * [**The Endpoint Security Daemon**](https://github.com/redcanaryco/mac-monitor/wiki/6.-Endpoint-Security-Daemon)
+  * [**The Endpoint Security System DYLIB**](https://github.com/redcanaryco/mac-monitor/wiki/7.-Endpoint-Security-System-DYLIB)
+  * [**The Endpoint Security DYLIB**](https://github.com/redcanaryco/mac-monitor/wiki/8.-Endpoint-Security-DYLIB)
+  * [**Endpoint Security User Space Eventing**](https://github.com/redcanaryco/mac-monitor/wiki/9.-ES-User-Space-Eventing)
+
+---
 
 ## Recent content
 
@@ -10,7 +22,7 @@ My personal security blog is hosted on Notion at: [**swiftly-detecting.notion.si
 
 * **Published**: August 3, 2024  
 * **Link**: https://swiftly-detecting.notion.site/ES-Gatekeeper-User-Override-31aea4ce3f804052bd4a81efaea76f6c  
->**Summary**: Apple has introduced a new Endpoint Security (ES) event in macOS 15 Sequoia called `ES_EVENT_TYPE_NOTIFY_GATEKEEPER_USER_OVERRIDE`, providing insight into Gatekeeper user overrides. This event, emitted by the `/usr/libexec/syspolicyd` daemon, does not enable authorization, but offers details like file type, path, CD hash, and SHA256 hash for files under 100MB. The event can be leveraged to detect instances where users bypass Gatekeeper restrictions, aiding in incident response and threat detection. Additionally, the `ExecPolicy` database's `policy_scan_cache` and `settings` can be queried for the last override event by looking to the `lastGKOverride` value.
+>**Summary**: Apple has introduced a new Endpoint Security (ES) event in macOS 15 Sequoia called `ES_EVENT_TYPE_NOTIFY_GATEKEEPER_USER_OVERRIDE`, providing insight into Gatekeeper user overrides. This event, emitted by the `/usr/libexec/syspolicyd` daemon, does not enable authorization, but offers details like file type, path, CD hash, and SHA256 hash for files under 100MB. The event can be leveraged to detect instances where users bypass Gatekeeper restrictions, aiding in incident response and threat detection. Additionally, the `ExecPolicy` database's `policy_scan_cache` and `settings` table can be queried for the last override event by looking to the `lastGKOverride` value.
 
 
 ### 📝 Listing Connected ES Clients
