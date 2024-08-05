@@ -20,14 +20,14 @@ My personal security blog is hosted on Notion at: [**swiftly-detecting.notion.si
 ### 📝 ES Gatekeeper User Override
 
 * **Published**: August 3, 2024  
-* **Link**: https://swiftly-detecting.notion.site/ES-Gatekeeper-User-Override-31aea4ce3f804052bd4a81efaea76f6c  
+* **Link**: [swiftly-detecting.notion.site/ES-Gatekeeper-User-Override](https://swiftly-detecting.notion.site/ES-Gatekeeper-User-Override-31aea4ce3f804052bd4a81efaea76f6c)  
 >**Summary**: Apple has introduced a new Endpoint Security (ES) event in macOS 15 Sequoia called `ES_EVENT_TYPE_NOTIFY_GATEKEEPER_USER_OVERRIDE`, providing insight into Gatekeeper user overrides. This event, emitted by the `/usr/libexec/syspolicyd` daemon, does not enable authorization, but offers details like file type, path, CD hash, and SHA256 hash for files under 100MB. The event can be leveraged to detect instances where users bypass Gatekeeper restrictions, aiding in incident response and threat detection. Additionally, the `ExecPolicy` database's `policy_scan_cache` and `settings` table can be queried for the last override event by looking to the `lastGKOverride` value.
 
 
 ### 📝 Listing Connected ES Clients
 
 * **Published**: August 2, 2024  
-* **Link**: https://swiftly-detecting.notion.site/Listing-Connected-ES-Clients-fa6a47526b6942b9b5ab7339ebc17016
+* **Link**: [swiftly-detecting.notion.site/Listing-Connected-ES-Clients](https://swiftly-detecting.notion.site/Listing-Connected-ES-Clients-fa6a47526b6942b9b5ab7339ebc17016)
 >**Summary**: It's possible to enumerate Endpoint Security (ES) clients (those who call into [`es_new_client(_:_:)`](https://developer.apple.com/documentation/endpointsecurity/3259700-es_new_client)) using the I/O Registry. The I/O Registry is a database representing the system's current "hardware" configuration and is organized into eight planes, with the `IOService` plane being of particular interest. The native `ioreg` utility can be used to query the `EndpointSecurityDriver` node, revealing connected ES clients as `EndpointSecurityExternalClient` objects. Additionally, Apple's `IORegistryExplorer.app` offers a graphical view of connected clients. 
 
 
