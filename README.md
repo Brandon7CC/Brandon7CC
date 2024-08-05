@@ -14,7 +14,6 @@ My personal security blog is hosted on Notion at: [**swiftly-detecting.notion.si
   * [**The Endpoint Security DYLIB**](https://github.com/redcanaryco/mac-monitor/wiki/8.-Endpoint-Security-DYLIB)
   * [**Endpoint Security User Space Eventing**](https://github.com/redcanaryco/mac-monitor/wiki/9.-ES-User-Space-Eventing)
 
----
 
 ## Recent content
 
