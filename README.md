@@ -2,8 +2,7 @@
 
 My personal security blog is hosted on Notion at: [**swiftly-detecting.notion.site**](https://swiftly-detecting.notion.site/Swiftly-Detecting-Blog-c4000221c60d46ffb16c37b2425241e2).
 
----
-## Some helpful links
+### Some helpful links
 * [**🌎 Endpoint Security client Survey 2023**](https://docs.google.com/spreadsheets/d/18lPTHjrgKsfLWknGpHg_bCasF1G7KRQlw0j6xs0oKx4/edit?gid=0#gid=0)
 * [**Common macOS Data Sources**](https://github.com/redcanaryco/mac-monitor/wiki/2.-Common-Data-Sources)
   * [**Security Data Sources**](https://github.com/redcanaryco/mac-monitor/wiki/4.-Security-Data-Sources)
