@@ -4,7 +4,7 @@ My personal security blog is hosted on Notion at: [**swiftly-detecting.notion.si
 
 ## Conference talks
 
-- **🏝️ October 2025: Objective by the Sea v8.0**: “Introducing the Next Generation of Mac Monitor”
+- **🇪🇸 October 2025: Objective by the Sea v8.0**: “Introducing the Next Generation of Mac Monitor”
     - `brew install --cask mac-monitor`
     - 📊 [**Slides**](https://swiftlydetecting-conferences.s3.us-west-2.amazonaws.com/public/2025/OBTSv8/Introducing+the+Next+Generation+of+Mac+Monitor.pdf)
 - **🏝️ December 2024: Objective by the Sea v7.0**: “Mac, Where’s My Bootstrap?”
